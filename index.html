@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TurkishKit Yaka Kartı Oluşturucu</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="./scripts/main.js"></script>
+  <script src="../scripts/html2canvas.js"></script>
+</head>
+
+<body id="body">
+  <div class="page" id="maindiv">
+  <header>
+    <h2>TurkishKit</h2>
+    <h1>Yaka Kartı Oluşturucu</h1>
+  </header>
+  <div class="createstory">
+    <input id="nameinput" onkeyup="onNameChange()" oninput="onNameChange()" class="textinput" type="text" placeholder="İsim">
+  </div>
+  <a class="bigbutton" onclick="create()">Oluştur</a>
+  </div>
+  <div class="page" id="ready">
+    <header>
+      <h1>Yaka kartın hazır.</h1>
+      <h2 class="nomargintop">Seni WWDC Kampı'nda görmek için sabırsızlanıyoruz.</h2>
+    </header>
+    <div class="imgcontainer withmargin">
+        <img id="badgefinal" class="withmargin" src="" alt="Yaka kartı">
+    </div>
+    <a class="bigbutton" onclick="goback()">Geri Dön</a>
+  </div>
+  <div id="badge" class="canvas">
+    <img src="assets/badge.png" alt="">
+      <h1 id="name">İsim</h1>
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+</body>
+
+</html>
