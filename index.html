@@ -16,10 +16,12 @@
     <h2>TurkishKit</h2>
     <h1>Yaka Kartı Oluşturucu</h1>
   </header>
-  <div class="createstory">
+  <div class="createbadge">
+    <form action="javascript:create()">
     <input id="nameinput" onkeyup="onNameChange()" oninput="onNameChange()" class="textinput" type="text" placeholder="İsim">
+    <a id="submit" type="submit" class="bigbutton" onclick="create()">Oluştur</a>
+  </form>
   </div>
-  <a class="bigbutton" onclick="create()">Oluştur</a>
   </div>
   <div class="page" id="ready">
     <header>

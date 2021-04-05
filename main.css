@@ -73,6 +73,7 @@ header h1 {
     height: auto;
     margin: 0;
     max-width: 550px;
+    border: 1px var(--gray-5) solid;
 }
 
 .imgcontainer {
@@ -139,7 +140,7 @@ body {
     border-radius: 8px;
 }
 
-.createstory {
+.createbadge {
     margin: 0;
     margin-top: 30px;
     padding: 0;
@@ -153,6 +154,7 @@ body {
     padding-left: 15px;
     height: 40px;
     border-radius: 8px;
+    font-size: 16px;
     background-color: var(--gray-5);
     border: none;
     outline: none;
@@ -160,22 +162,6 @@ body {
 
 .black {
     color: var(--text-color);
-}
-
-.radiodivcontainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-
-.radiodiv {
-    width: calc(100% - 50px);
-    background-color: var(--gray-5);
-    border-radius: 20px;
-    height: fit-content;
-    padding: 15px;
-    margin: 0px 25px 20px 25px;
 }
 
 .page {
@@ -192,13 +178,6 @@ body {
 
 #maindiv {
     display: flex;
-}
-
-.radiodiv h2 {
-    margin-top: 0;
-    font-size: 20px;
-    font-weight: 700;
-    width: 100%;
 }
 
 .withmargin {
