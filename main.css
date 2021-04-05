@@ -6,6 +6,11 @@
     color: var(--text-color);
 }
 
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
 :root {
     --background-color: rgb(250, 250, 250);
     --blue: rgb(0, 122, 255);
